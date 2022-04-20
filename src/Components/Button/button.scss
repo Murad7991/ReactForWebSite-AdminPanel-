@@ -1,0 +1,29 @@
+.sendButton {
+  padding-top: 20px;
+  button {
+    width: 130px;
+    height: 45px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    &:hover {
+      box-shadow: 0 2px 40px 8px rgb(15 15 15 / 15%);
+      background-color: #fff;
+      color: #1cc3b2;
+      transition: all 0.7s;
+      cursor: pointer;
+    }
+    &:disabled {
+      background-color: white;
+      color: #1cc3b2;
+      cursor: text;
+    }
+    &:not([disabled]) {
+      background-color: #1cc3b2;
+      color: #fff;
+      cursor: pointer;
+    }
+  }
+}
+

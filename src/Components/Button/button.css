@@ -1,0 +1,30 @@
+.sendButton {
+  padding-top: 20px;
+}
+.sendButton button {
+  width: 130px;
+  height: 45px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+}
+.sendButton button:hover {
+  box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15);
+  background-color: #fff;
+  color: #1cc3b2;
+  transition: all 0.7s;
+  cursor: pointer;
+}
+.sendButton button:disabled {
+  background-color: white;
+  color: #1cc3b2;
+  cursor: text;
+}
+.sendButton button:not([disabled]) {
+  background-color: #1cc3b2;
+  color: #fff;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=button.css.map */

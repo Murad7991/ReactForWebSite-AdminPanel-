@@ -1,0 +1,21 @@
+.header {
+  height: 80px;
+  width: 100%;
+  background-color: #0e2737;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.header ul {
+  display: flex;
+  column-gap: 15px;
+}
+.header ul li a {
+  color: #fff;
+}
+.header ul li a:hover {
+  color: #1cc3b2;
+  transition: all 0.8s;
+}
+
+/*# sourceMappingURL=header.css.map */
